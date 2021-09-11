@@ -1,5 +1,5 @@
  Server ;DRC;C;Conga;server;data;S1;DiscordBot
- 'Conga' ⎕CY 'conga' ⍝ import conga as C
+ ⍝ 'Conga' ⎕CY 'conga' ⍝ import conga as C
  C←Conga
  DRC ← C.Init 'DiscordBot'
  server ← DRC.Srv 'S1' 'localhost' 8080 'http'
